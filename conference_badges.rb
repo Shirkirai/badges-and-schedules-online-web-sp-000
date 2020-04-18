@@ -24,5 +24,4 @@ def printer(attendees)
     puts "Hello, my name is #{name}."
     puts "Hello, #{name}! You'll be assigned to room #{counter}!"
   end
-  badge_room
 end
