@@ -3,7 +3,7 @@ def badge_maker(name)
   "Hello, my name is #{name}."
 end
 def batch_badge_creator(attendees)
-  attendees.each do |name|
-    "Hello, my name is #{name}."
+  badge = []
+  attendees.each {|name| badge.shift("Hello, my name is #{name}".)}
   end
 end
