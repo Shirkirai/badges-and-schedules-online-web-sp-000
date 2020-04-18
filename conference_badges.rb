@@ -22,7 +22,7 @@ def printer(attendees)
   counter = 1
   attendees.each do |name|
     puts "Hello, my name is #{name}."
-
+    puts "Hello, #{name}! You'll be assigned to room #{counter}!"
   end
   badge_room
 end
