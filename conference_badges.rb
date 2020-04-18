@@ -4,6 +4,6 @@ def badge_maker(name)
 end
 def batch_badge_creator(attendees)
   badge = []
-  attendees.each {|name| badge.shift("Hello, my name is #{name}".)}
+  attendees.each {|name| badge.shift("Hello, my name is #{name}.")}
   end
 end
