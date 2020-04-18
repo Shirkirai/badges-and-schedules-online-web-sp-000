@@ -21,7 +21,7 @@ end
 def printer(attendees)
   badge_room = []
   attendees.each do |name|
-    badge_room << "Hello, my name is #{name}"
+    badge_room << "Hello, my name is #{name}."
   end
   puts badge_room
 end
